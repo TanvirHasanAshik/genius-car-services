@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { useAuthState, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../firebase.init';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 const Login = () => {
     const [errorMessage, setErrorMessage] = useState('');
@@ -31,8 +32,8 @@ const Login = () => {
             })
     }
     return (
-        <div className='container w-50 mx-auto border rounded p-5 mt-5'>
-            <h1 className='text-center text-primary '>Please login</h1>
+        <div className='container w-50 mx-auto border rounded py-2 px-5 mt-5'>
+            <h1 className='text-center text-primary'>Please login</h1>
             {errorMessage && <strong className='text-danger'>Please check your email and password</strong>}
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
@@ -48,6 +49,7 @@ const Login = () => {
                 </div>
                 <button type="submit" className="btn btn-primary">Login</button>
             </form>
+            <SocialLogin from={from}></SocialLogin>
         </div>
     );
 };

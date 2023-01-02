@@ -29,6 +29,27 @@
     },
     {
         "id": 5,
+        "name": "Headlights, Turn Signals, Brake, and Parking Lights",
+        "price": 400,
+        "description": "A car service can involve up to 50 or more components, systems checks and adjustments including: An engine oil change and/or filter replacement. Checking lights, tyres, exhaust and operations of brakes and steering. Ensuring your engine is 'tuned' to run in its peak condition.",
+        "img": "https://i.ibb.co/fvb3gcQ/medium-shot-car-back-lights-1.png"
+    },
+    {
+        "id": 6,
+        "name": "Headlights, Turn Signals, Brake, and Parking Lights",
+        "price": 400,
+        "description": "A car service can involve up to 50 or more components, systems checks and adjustments including: An engine oil change and/or filter replacement. Checking lights, tyres, exhaust and operations of brakes and steering. Ensuring your engine is 'tuned' to run in its peak condition.",
+        "img": "https://i.ibb.co/fvb3gcQ/medium-shot-car-back-lights-1.png"
+    },
+    {
+        "id": 7,
+        "name": "Rotate Tyres",
+        "price": 300,
+        "description": "A car service can involve up to 50 or more components, systems checks and adjustments including: An engine oil change and/or filter replacement. Checking lights, tyres, exhaust and operations of brakes and steering. Ensuring your engine is 'tuned' to run in its peak condition.",
+        "img": "https://i.ibb.co/v1TS5Wh/technician-is-inflate-car-tire-car-maintenance-service-transportation-safety-concept-1.png"
+    },
+    {
+        "id": 8,
         "name": "Rotate Tyres",
         "price": 300,
         "description": "A car service can involve up to 50 or more components, systems checks and adjustments including: An engine oil change and/or filter replacement. Checking lights, tyres, exhaust and operations of brakes and steering. Ensuring your engine is 'tuned' to run in its peak condition.",

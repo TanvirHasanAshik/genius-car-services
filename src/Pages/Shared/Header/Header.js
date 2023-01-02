@@ -30,6 +30,12 @@ const Header = () => {
                     <li className="nav-item">
                         <Link className="nav-link text-white" to="about">About</Link>
                     </li>
+                    <li>
+                        {user && <Link className="nav-link text-white" to='/manage' >Manage</Link>}
+                    </li>
+                    <li>
+                        {user && <Link className="nav-link text-white" to='/addService' >AddService</Link>}
+                    </li>
                     <li className="nav-item">
                         {user ? <button onClick={() => signOut()} className="btn btn-success">Log Out</button>
 

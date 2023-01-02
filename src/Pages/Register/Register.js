@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import SocialLogin from '../Login/SocialLogin/SocialLogin';
 const Register = () => {
     const emailRef = useRef();
     const passwordRef = useRef();
@@ -47,6 +48,7 @@ const Register = () => {
                 </div>
                 <button type="submit" className="btn btn-primary">Register</button>
             </form>
+            <SocialLogin></SocialLogin>
         </div>
     );
 };
